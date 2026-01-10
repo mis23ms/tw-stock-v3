@@ -17,31 +17,3 @@ th{color:#cfe0f3;font-weight:600}
 a{color:#7aa7ff;text-decoration:none}a:hover{text-decoration:underline}
 small{color:#9fb1c6}
 .bad{color:#ffb4b4}
-/* [請加在 style.css 最底部] */
-
-/* 漲跌 & 外資顏色分級 */
-.up-lv1 { background: #4a1a1a !important; color: #ffb4b4 !important; } /* 弱紅 */
-.up-lv2 { background: #802020 !important; color: #ffcccc !important; } /* 中紅 */
-.up-lv3 { background: #b31d1d !important; color: #ffffff !important; font-weight: bold; } /* 強紅 */
-
-.down-lv1 { background: #1a3a26 !important; color: #b4ffcf !important; } /* 弱綠 */
-.down-lv2 { background: #205a30 !important; color: #ccffdd !important; } /* 中綠 */
-.down-lv3 { background: #1d8a3b !important; color: #ffffff !important; font-weight: bold; } /* 強綠 */
-
-/* 期貨區塊樣式 */
-.futures-box {
-    margin-top: 10px;
-    padding: 10px;
-    background: #0d1420;
-    border: 1px dashed #2a3c55;
-    border-radius: 8px;
-    font-size: 13px;
-}
-.futures-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8px;
-    margin-top: 5px;
-}
-.net-pos { color: #ff7676; }
-.net-neg { color: #52ff94; }
