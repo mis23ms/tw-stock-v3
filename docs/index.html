@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>盤後一頁式戰報</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="wrap">
+    <h1>盤後一頁式戰報</h1>
+    <p id="meta" class="muted">載入中…</p>
+  </header>
+
+  <main class="wrap">
+    <!-- ✅ 新增：自選股票（最多 2 支） -->
+    <section>
+      <h2>自選股票（最多再加 2 支）</h2>
+      <div id="extra" class="card"></div>
+    </section>
+
+    <section>
+      <h2>四檔個股</h2>
+      <div id="stocks" class="grid"></div>
+    </section>
+
+    <section>
+      <h2>券商分點進出金額排行（ZGB）—指定 6 家</h2>
+      <div id="zgb" class="card"></div>
+    </section>
+
+    <section>
+      <h2>外資買賣超排行（ZGK_D）</h2>
+      <div id="zgk" class="card"></div>
+    </section>
+  </main>
+
+<section>
+      <h2>📊 固定 4 檔期貨未平倉 (所有契約)</h2>
+      <div id="futures-summary" class="grid"></div>
+    </section>
+  
+  <footer class="wrap muted">
+    <p>資料來源：TWSE（股價/外資買賣超）與 富邦 MoneyDJ（ZGB / ZGK_D）。</p>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
