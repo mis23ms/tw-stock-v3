@@ -468,4 +468,3 @@ function cssEscape(s) {
   // 最低限度避免 querySelector 因特殊字元炸掉
   return String(s).replace(/[^a-zA-Z0-9\-_]/g, "\\$&");
 }
-
